@@ -1,0 +1,17 @@
+# Ignore local environment variables and system files
+.env
+.DS_Store
+__pycache__/
+
+# Ignore Obsidian settings and Jupyter notebooks
+.obsidian/
+*.ipynb
+
+# Ignore user memory and vault content
+/Memory/
+*.md
+!.github/
+!README.md
+
+# Ignore the vector database
+.chroma_db/
